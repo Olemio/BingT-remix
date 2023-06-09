@@ -57,6 +57,12 @@ export default function Index() {
       <TimerClock parentCallBack={callBackFunction} intervalCount={intervalCount}/>
 
       <Statistics timeArray={timeArray}/>
+
+      <div>
+        <h1>QnA</h1>
+        <h3></h3>
+        <p></p>
+      </div>
     </>
     
   );
