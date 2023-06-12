@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
+
 export default function TimerClock({ intervalCount, parentCallBack }) {
     const [seconds, setSeconds] = useState(0);
     const [isRunning, setIsRunning] = useState(false);

@@ -15,7 +15,7 @@ export default function Statistics({ timeArray }) {
         } else if (array.length === 3) { // Median of 3
             for (let i = 0; array.length > i; i++) {
                 arraySum += array[i]
-            }
+            }    
             return (arraySum / array.length).toFixed(2);
         }  
     

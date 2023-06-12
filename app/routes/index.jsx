@@ -58,7 +58,7 @@ export default function Index() {
 
       <Statistics timeArray={timeArray}/>
 
-      <div>
+      {/* <div>
         <h1>FAQ</h1>
         <h3>How do i start the timer?</h3>
         <p>To start the timer, hold down spacebar for 0.3 seconds. When you let go of the spacebar the timer will start and you can solve your cube. To stop the timer, press and let go of spacebar as normal</p>
@@ -66,8 +66,29 @@ export default function Index() {
         <p>The are there for scrambeling the rubik's cube. The letters represent different ways to turn the cube. ( ' ) means a turn should be done counter clockwise, whilst ( 2 ) signifies that is should be a double turn</p>
         <h3>What does current and best mean?</h3>
         <p>The current title is refering to you current time and averages, and the best title is refering to the "all time best" time and averages</p>
-      </div>
+      </div> */}
     </>
-    
   );
 }
+
+// import { PrismaClient } from '@prisma/client'
+
+// const prisma = new PrismaClient()
+
+// async function main() {
+//   const solve = await prisma.Solve.create({
+//     data: {
+//       time: "10"
+//     }
+//   })
+//   console.log(solve)
+//   JSON.stringify(solve)
+// }
+
+// main()
+//   .catch(e => {
+
+//   })
+//   .finally(async () => {
+//     await prisma.disconnect()
+//   })
