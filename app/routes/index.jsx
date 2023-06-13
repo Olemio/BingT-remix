@@ -59,9 +59,6 @@ export default function Index() {
       <Statistics timeArray={timeArray}/>
 
       <div>
-        <br/>
-        <br/>
-
         <h1>FAQ</h1>
         
         <h3>How do i start the timer?</h3>
