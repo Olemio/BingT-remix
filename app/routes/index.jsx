@@ -97,7 +97,6 @@ export default function Index() {
 //     }
 //   })
 //   console.log(solve)
-//   JSON.stringify(solve)
 // }
 
 // main()
