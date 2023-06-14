@@ -90,7 +90,7 @@ export default function Index() {
 // async function main() {
 //   const solve = await prisma.Solve.create({
 //     data: {
-//       time: "10"
+//       time: "10.12"
 //     }
 //   })
 //   console.log(solve)
